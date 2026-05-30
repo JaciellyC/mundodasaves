@@ -1,0 +1,6 @@
+{
+  "name": "Mundo das Aves",
+  "description": "Catálogo online profissional da Mundo das Aves - Alimentos e suplementos premium para pássaros.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
