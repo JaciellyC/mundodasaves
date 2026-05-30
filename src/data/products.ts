@@ -21,7 +21,7 @@ export const products: Product[] = [
     textColor: 'text-emerald-700',
     bgColor: 'bg-emerald-50',
     iconType: 'grain',
-    image: 'assets/pequeno-porte.png',
+    image: 'src/assets/images/pequeno-porte.png',
   },
   {
     id: 'eco-002',
@@ -34,7 +34,7 @@ export const products: Product[] = [
     textColor: 'text-blue-700',
     bgColor: 'bg-blue-50',
     iconType: 'bluebird',
-    image: 'assets/azulao.png',
+    image: 'src/assets/images/azulao.png',
   },
   {
     id: 'eco-003',
@@ -47,7 +47,7 @@ export const products: Product[] = [
     textColor: 'text-red-700',
     bgColor: 'bg-red-50',
     iconType: 'galo',
-    image: 'assets/galo-campina.png',
+    image: 'src/assets/images/galo-campina.png',
   },
   {
     id: 'eco-004',
@@ -60,7 +60,7 @@ export const products: Product[] = [
     textColor: 'text-amber-800',
     bgColor: 'bg-amber-50',
     iconType: 'coleiro',
-    image: 'assets/curio.png',
+    image: 'src/assets/images/curio.png',
   },
   {
     id: 'eco-005',
@@ -73,7 +73,7 @@ export const products: Product[] = [
     textColor: 'text-emerald-800',
     bgColor: 'bg-lime-50',
     iconType: 'papagaio',
-    image: 'assets/papagaio.png'
+    image: 'src/assets/images/papagaio.png'
   },
   {
     id: 'eco-006',
@@ -86,7 +86,7 @@ export const products: Product[] = [
     textColor: 'text-amber-700',
     bgColor: 'bg-yellow-50',
     iconType: 'canario',
-    image: 'assets/canario-terra.png',
+    image: 'src/assets/images/canario-terra.png',
   },
   {
     id: 'eco-007',
@@ -100,7 +100,7 @@ export const products: Product[] = [
     textColor: 'text-yellow-600',
     bgColor: 'bg-yellow-50/70',
     iconType: 'canario',
-    image: 'assets/canario-belga.png',
+    image: 'src/assets/images/canario-belga.png',
   },
 
   // --- LINHA PREMIUM ---
@@ -115,7 +115,7 @@ export const products: Product[] = [
     textColor: 'text-teal-700',
     bgColor: 'bg-teal-50',
     iconType: 'coleiro',
-    image: 'assets/coleiro-coco.png',
+    image: 'src/assets/images/coleiro-coco.png',
   },
   {
     id: 'prem-009',
@@ -128,7 +128,7 @@ export const products: Product[] = [
     textColor: 'text-amber-700',
     bgColor: 'bg-amber-50',
     iconType: 'coleiro',
-    image: 'assets/coleiro-mel.png',
+    image: 'src/assets/images/coleiro-mel.png',
   },
   {
     id: 'prem-010',
@@ -141,7 +141,7 @@ export const products: Product[] = [
     textColor: 'text-cyan-700',
     bgColor: 'bg-cyan-50',
     iconType: 'grain',
-    image: 'assets/alpiste-coco.png',
+    image: 'src/assets/images/alpiste-coco.png',
   },
 
   // --- LINHA SUPER PREMIUM ---
@@ -156,7 +156,7 @@ export const products: Product[] = [
     textColor: 'text-blue-800',
     bgColor: 'bg-sky-50',
     iconType: 'bluebird',
-    image: 'assets/azulao-tenebrio.png'
+    image: 'src/assets/images/azulao-tenebrio.png'
   },
   {
     id: 'sprem-012',
@@ -169,7 +169,7 @@ export const products: Product[] = [
     textColor: 'text-red-800',
     bgColor: 'bg-orange-50',
     iconType: 'galo',
-    image: 'assets/galo-tenebrio.png'
+    image: 'src/assets/images/galo-tenebrio.png'
   },
   {
     id: 'sprem-013',
@@ -183,7 +183,7 @@ export const products: Product[] = [
     textColor: 'text-violet-700',
     bgColor: 'bg-violet-50',
     iconType: 'coleiro',
-    image: 'assets/coleiro-premium.png',
+    image: 'src/assets/images/coleiro-premium.png',
 
   },
 
@@ -199,7 +199,7 @@ export const products: Product[] = [
     textColor: 'text-orange-700',
     bgColor: 'bg-yellow-55/70',
     iconType: 'bottle',
-    image: 'assets/canjiquinha.png'
+    image: 'src/assets/images/canjiquinha.png'
   },
   {
     id: 'garr-015',
@@ -213,7 +213,7 @@ export const products: Product[] = [
     textColor: 'text-amber-900',
     bgColor: 'bg-amber-100/40',
     iconType: 'bottle',
-    image: 'assets/larvas-tenebrio.png'
+    image: 'src/assets/images/larvas-tenebrio.png'
   },
   {
     id: 'garr-016',
@@ -226,7 +226,7 @@ export const products: Product[] = [
     textColor: 'text-slate-700',
     bgColor: 'bg-slate-100',
     iconType: 'bottle',
-    image: 'assets/farinha-ostra-fina.png'
+    image: 'src/assets/images/farinha-ostra-fina.png'
   },
   {
     id: 'garr-017',
@@ -239,7 +239,7 @@ export const products: Product[] = [
     textColor: 'text-zinc-700',
     bgColor: 'bg-zinc-100',
     iconType: 'bottle',
-    image: 'assets/farinha-ostra-media.png'
+    image: 'src/assets/images/farinha-ostra-media.png'
   },
   {
     id: 'garr-018',
@@ -253,7 +253,7 @@ export const products: Product[] = [
     textColor: 'text-slate-600',
     bgColor: 'bg-stone-50',
     iconType: 'bottle',
-    image: 'assets/perila.png',
+    image: 'src/assets/images/perila.png',
 
   },
   {
@@ -267,7 +267,7 @@ export const products: Product[] = [
     textColor: 'text-yellow-700',
     bgColor: 'bg-amber-50/30',
     iconType: 'bottle',
-    image: 'assets/painco.png'
+    image: 'src/assets/images/painco.png'
   },
   {
     id: 'garr-020',
@@ -280,7 +280,7 @@ export const products: Product[] = [
     textColor: 'text-stone-850',
     bgColor: 'bg-stone-100',
     iconType: 'bottle',
-    image: 'assets/mineral-carvao.png'
+    image: 'src/assets/images/mineral-carvao.png'
   },
 
   // --- LINHA SIBITE ---
@@ -295,7 +295,7 @@ export const products: Product[] = [
     textColor: 'text-green-800',
     bgColor: 'bg-yellow-50/50',
     iconType: 'sibite',
-    image: 'assets/manutenção.png'
+    image: 'src/assets/images/manutenção.png'
   },
   {
     id: 'sib-022',
@@ -308,7 +308,7 @@ export const products: Product[] = [
     textColor: 'text-orange-700',
     bgColor: 'bg-orange-50/50',
     iconType: 'sibite',
-    image: 'assets/proteina.png'
+    image: 'src/assets/images/proteina.png'
   },
   {
     id: 'sib-023',
@@ -321,7 +321,7 @@ export const products: Product[] = [
     textColor: 'text-red-700',
     bgColor: 'bg-red-50/40',
     iconType: 'sibite',
-    image: 'assets/vermelha.png'
+    image: 'src/assets/images/vermelha.png'
   },
   {
     id: 'sib-024',
@@ -334,7 +334,7 @@ export const products: Product[] = [
     textColor: 'text-teal-800',
     bgColor: 'bg-teal-50/50',
     iconType: 'sibite',
-    image: 'assets/super-premium.png'
+    image: 'src/assets/images/super-premium.png'
   },
 
   // --- LINHA SACARIA ---
@@ -351,7 +351,7 @@ export const products: Product[] = [
     textColor: 'text-emerald-900',
     bgColor: 'bg-emerald-50',
     iconType: 'sacaria',
-    image: 'assets/azulao-10kg.png',
+    image: 'src/assets/images/azulao-10kg.png',
 
   },
   {
@@ -367,7 +367,7 @@ export const products: Product[] = [
     textColor: 'text-cyan-800',
     bgColor: 'bg-cyan-50/50',
     iconType: 'sacaria',
-    image: 'assets/periquito-10kg.png'
+    image: 'src/assets/images/periquito-10kg.png'
   },
   {
     id: 'sac-026',
@@ -382,7 +382,7 @@ export const products: Product[] = [
     textColor: 'text-yellow-800',
     bgColor: 'bg-yellow-50',
     iconType: 'sacaria',
-    image: 'assets/canario-belga-10kg.png'
+    image: 'src/assets/images/canario-belga-10kg.png'
   },
   {
     id: 'sac-027',
@@ -397,6 +397,6 @@ export const products: Product[] = [
     textColor: 'text-emerald-800',
     bgColor: 'bg-green-50/30',
     iconType: 'sacaria',
-    image: 'assets/canario-belga-10kg.png'
+    image: 'src/assets/images/canario-belga-10kg.png'
   },
 ];
