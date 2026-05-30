@@ -65,7 +65,7 @@ export default function Navbar() {
           >
 
             <div className="flex flex-col">
-              <img src="assets/logo.png" alt="Mundo das Aves Logo" className="w-40 md:w-48 h-auto object-contain" />
+              <img src="/images/logo.png" alt="Mundo das Aves Logo" className="w-40 md:w-48 h-auto object-contain" />
             </div>
           </a> {/* ✅ </a> fechado aqui corretamente */}
 
