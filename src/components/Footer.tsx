@@ -48,7 +48,7 @@ export default function Footer() {
             <img
               src="/images/logo.png"
               alt="Mundo das Aves"
-              className="h-10 w-auto object-contain group-hover:opacity-80 transition-opacity"
+              className="h-12 w-auto object-contain group-hover:opacity-80 transition-opacity"
             />
           </a>
         </div>
