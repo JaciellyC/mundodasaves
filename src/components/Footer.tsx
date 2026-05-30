@@ -31,7 +31,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#0a0a0c] text-stone-400 pt-16 pb-12 relative overflow-hidden" id="footer-container">
       {/* Decorative top ambient glow */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-2/3 h-px bg-gradient-to-r from-transparent via-stone-800 to-transparent" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-2/3 h-px bg-linear-to-r from-transparent via-stone-800 to-transparent" />
 
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
 
@@ -45,23 +45,6 @@ export default function Footer() {
             onClick={handleScrollToTop}
             className="flex items-center gap-3 focus:outline-none group"
           >
-            <div className="w-9 h-9 bg-stone-900 border border-stone-800 rounded-lg flex items-center justify-center p-1.5 transition-all duration-300 group-hover:border-emerald-500/30 group-hover:bg-stone-950 shadow-sm">
-              <svg
-                viewBox="0 0 100 100"
-                className="w-full h-full text-emerald-400 group-hover:text-emerald-355 transition-colors"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="7"
-              >
-                <path
-                  d="M20,80 C30,75 50,55 55,45 C60,35 65,22 80,18 C77,30 72,42 62,50 C52,58 35,70 20,80 Z"
-                  fill="currentColor"
-                  stroke="currentColor"
-                  strokeWidth="3"
-                />
-                <circle cx="28" cy="72" r="5" fill="#f59e0b" />
-              </svg>
-            </div>
             <img
               src="/images/logo.png"
               alt="Mundo das Aves"
