@@ -1,6 +1,6 @@
 import React from 'react';
-import { 
-  Award, 
+import {
+  Award,
   Instagram,
 } from 'lucide-react';
 import { companyInfo } from '../data/products';
@@ -30,11 +30,11 @@ export default function Footer() {
 
   return (
     <footer className="bg-[#0a0a0c] text-stone-400 pt-16 pb-12 relative overflow-hidden" id="footer-container">
-      {/* Decorative top ambient glow (extremely subtle) */}
+      {/* Decorative top ambient glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-2/3 h-px bg-gradient-to-r from-transparent via-stone-800 to-transparent" />
-      
+
       <div className="max-w-7xl mx-auto px-6 sm:px-8">
-        
+
         {/* Top border line */}
         <div className="border-t border-stone-900/60 mb-12" />
 
@@ -53,20 +53,20 @@ export default function Footer() {
                 stroke="currentColor"
                 strokeWidth="7"
               >
-                <path 
-                  d="M20,80 C30,75 50,55 55,45 C60,35 65,22 80,18 C77,30 72,42 62,50 C52,58 35,70 20,80 Z" 
-                  fill="currentColor" 
-                  stroke="currentColor" 
-                  strokeWidth="3" 
+                <path
+                  d="M20,80 C30,75 50,55 55,45 C60,35 65,22 80,18 C77,30 72,42 62,50 C52,58 35,70 20,80 Z"
+                  fill="currentColor"
+                  stroke="currentColor"
+                  strokeWidth="3"
                 />
                 <circle cx="28" cy="72" r="5" fill="#f59e0b" />
               </svg>
             </div>
-            <div className="flex items-center gap-1.5">
-              <span className="font-sans font-black text-lg tracking-tight text-white uppercase group-hover:text-emerald-400 transition-colors">
-                Mundo<span className="text-stone-300 font-bold">DasAves</span>
-              </span>
-            </div>
+            <img
+              src="/images/logo.png"
+              alt="Mundo das Aves"
+              className="h-10 w-auto object-contain group-hover:opacity-80 transition-opacity"
+            />
           </a>
         </div>
 
@@ -97,8 +97,8 @@ export default function Footer() {
 
         {/* Footer Bottom Meta Panel */}
         <div className="flex flex-col items-center justify-center gap-6" id="footer-bottom-panel">
-          
-          {/* Center: Copyright and corporate data detailed neatly inline */}
+
+          {/* Copyright and corporate data */}
           <div className="flex flex-col items-center gap-1.5 text-center text-xs text-stone-500">
             <p className="font-sans text-stone-400">
               © {currentYear} Mundo das Aves LLABC. Todos os direitos reservados.
@@ -114,10 +114,10 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Center: Elegant social media icons row */}
+          {/* Social media icons */}
           <div className="flex items-center gap-4 text-stone-550" id="footer-social-icons">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/mundodasaves.jp/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-1.5 text-stone-450 hover:text-white hover:bg-stone-900 rounded-lg transition-all duration-300"
